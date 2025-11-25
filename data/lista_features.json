@@ -1,0 +1,17 @@
+[
+    "duration_minutes",
+    "title_length",
+    "description_length",
+    "tags_count",
+    "channel_subscribers",
+    "channel_age_months",
+    "previous_videos_count",
+    "avg_upload_frequency_days",
+    "comments_count",
+    "likes_count",
+    "shares_count",
+    "playlist_adds",
+    "total_views",
+    "engagement_rate",
+    "views_per_tag"
+]
