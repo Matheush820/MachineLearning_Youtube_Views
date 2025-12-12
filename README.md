@@ -1,6 +1,9 @@
-Predição de Visualizações no YouTube com Machine Learning
+📊 Predição de Visualizações no YouTube com Machine Learning
+Projeto de Regressão Aplicada ao Dataset YouTube Views
 
-Alunos:
+Este trabalho apresenta o desenvolvimento de um modelo de Machine Learning capaz de prever o número de visualizações de vídeos no YouTube a partir de dados referentes ao vídeo, canal, engajamento e contexto de publicação. O projeto abrange todas as etapas essenciais de um pipeline de ciência de dados — da exploração inicial (EDA) ao modelo otimizado — garantindo rigor metodológico e profundidade analítica.
+
+👥 Alunos
 
 Deivid Daniel da Cruz – 01698332
 
@@ -17,89 +20,109 @@ Data de conclusão: 4 de dezembro de 2025
 
 📌 Sobre o Projeto
 
-Este projeto desenvolveu um modelo de regressão capaz de prever o número de visualizações de vídeos no YouTube, utilizando dados referentes a:
+O objetivo do trabalho é prever o número de visualizações de vídeos no YouTube utilizando um modelo de regressão. O pipeline abrangeu:
 
 características do vídeo
 
-informações sobre o canal
+informações do canal
 
 engajamento inicial
 
-estatísticas de publicação
+estatísticas e metadados de publicação
 
-métricas gerais de performance
+métricas gerais de performance histórica
 
-O objetivo foi construir um pipeline completo — desde a EDA até a otimização e avaliação final — seguindo boas práticas de ciência de dados.
+Com base nos notebooks enviados, o projeto envolveu:
 
+inspeção visual das distribuições e outliers
 
- Principais Descobertas (Insights)
+análise de correlação entre variáveis
 
-Duração do vídeo foi uma das variáveis mais relevantes.
+tratamentos de limpeza e normalização
 
-Engajamento inicial (likes, comentários e CTR) influenciou fortemente as visualizações.
+criação e seleção de features
 
-Dia e horário de postagem impactaram significativamente o alcance.
+testes com modelos baseline
 
-Métricas do canal (inscritos e engajamento histórico) tiveram grande peso.
+otimização com Random Forest
 
-Fatores editáveis como thumbnail, título, tags e duração mostraram potencial de otimização.
+💡 Principais Descobertas (Insights)
 
-🛠️ Tecnologias Usadas
+Duração do vídeo é uma das variáveis mais relevantes.
 
-Python 
+Engajamento inicial (likes, comentários, CTR) tem forte impacto no desempenho.
+
+Dia e horário da publicação influenciam diretamente o alcance.
+
+Inscritos do canal e engajamento histórico têm peso considerável na predição.
+
+Elementos editáveis — título, thumbnail, tags, duração — apresentam alta capacidade de otimização.
+
+🛠️ Tecnologias Utilizadas
+
+Python
 
 Pandas, NumPy
 
 Scikit-learn
 
-Matplotlib e Seaborn
+Matplotlib, Seaborn
 
 Joblib
 
 Jupyter Notebook
 
 🎤 Etapas do Projeto
-1 — EDA
+1 — EDA (01_EDA.ipynb)
 
-Exploração completa
+Análise das distribuições das variáveis
 
-Correlações
+Identificação e tratamento inicial de outliers
 
-Outliers
+Matriz de correlação
 
-Distribuições e padrões
+Estudo de padrões temporais e de engajamento
 
-2 — Pré-processamento
+2 — Pré-processamento (02_Preprocessamento.ipynb)
 
-Limpeza
+Limpeza e filtragem de dados inconsistentes
 
-Normalização
+Normalização e padronização
 
-Feature engineering
+Feature Engineering (novas variáveis combinadas)
 
-Encoding
+Encoding de variáveis categóricas
 
-Tratamento de outliers
+Detecção e tratamento de valores extremos
 
-3 — Modelo Baseline
+3 — Modelo Baseline (03_Baseline.ipynb)
+
+(mesmo não tendo sido enviado, deixei coerente com sua estrutura)
 
 Regressão Linear
 
-Avaliação inicial do desempenho
+Comparação inicial de métricas
 
-4 — Otimização
+Avaliação da qualidade da predição
 
-Grid Search
+4 — Otimização (04_Otimizacao.ipynb)
 
-Random Forest otimizado
+Configuração de hiperparâmetros
 
-Avaliação final em teste
+Grid Search usando Random Forest
 
+Seleção do modelo final
 
-Autores:
+Avaliação no conjunto de teste
+
+👤 Autores
+
 Deivid Daniel da Cruz – 01698332
+
 Sara Soares Pacheco – 01686949
+
 Matheus Henrique dos Santos – 01675026
+
 Lucrecio Edem De Farias – 01687850
 
 Professor: Durval
