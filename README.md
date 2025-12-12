@@ -73,7 +73,7 @@ Joblib
 Jupyter Notebook
 
 🎤 Etapas do Projeto
-1 — EDA (01_EDA.ipynb)
+Etapa 1 — EDA (01_EDA.ipynb)
 
 Análise das distribuições das variáveis
 
@@ -83,7 +83,7 @@ Matriz de correlação
 
 Estudo de padrões temporais e de engajamento
 
-2 — Pré-processamento (02_Preprocessamento.ipynb)
+Etapa 2 — Pré-processamento (02_Preprocessamento.ipynb)
 
 Limpeza e filtragem de dados inconsistentes
 
@@ -95,7 +95,7 @@ Encoding de variáveis categóricas
 
 Detecção e tratamento de valores extremos
 
-3 — Modelo Baseline (03_Baseline.ipynb)
+Etapa 3 — Modelo Baseline (03_Baseline.ipynb)
 
 (mesmo não tendo sido enviado, deixei coerente com sua estrutura)
 
@@ -105,7 +105,7 @@ Comparação inicial de métricas
 
 Avaliação da qualidade da predição
 
-4 — Otimização (04_Otimizacao.ipynb)
+Etapa 4 — Otimização (04_Otimizacao.ipynb)
 
 Configuração de hiperparâmetros
 
@@ -114,6 +114,9 @@ Grid Search usando Random Forest
 Seleção do modelo final
 
 Avaliação no conjunto de teste
+Etapa 5 – Resultados Finais (05_resultado)
+
+Na Etapa 5, analisamos o desempenho final do modelo selecionado após todo o processo de EDA, pré-processamento, modelagem e otimização. O objetivo foi avaliar como o modelo se comporta no conjunto de teste e interpretar seus resultados.
 
 👤 Autores
 
